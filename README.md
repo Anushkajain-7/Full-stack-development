@@ -1,2 +1,24 @@
-# Full-stack-development
-learning and practicing
+# Full Stack Development Learning Journey
+
+Welcome to my Full Stack Development Learning Journey repository! This repository is a collection of my daily learning and practice in full-stack development, covering various topics from basic to advanced levels. It serves as a comprehensive guide and reference for anyone interested in full-stack development.
+
+### Introduction
+
+This repository documents my journey in learning and practicing full-stack development. My goal is to master both frontend and backend technologies, building complete applications from scratch. Here, you will find a variety of projects and exercises that I have completed, along with detailed explanations and code samples.
+
+### Technologies
+
+Throughout this journey, I will be working with a range of technologies, including:
+
+* Frontend: HTML, CSS, JavaScript, React, Angular, Vue.js
+* Backend: Node.js, Express.js, Python (Django, Flask), Ruby on Rails, PHP (Laravel)
+* Databases: MySQL, PostgreSQL, MongoDB, SQLite
+* Other Tools: Git & GitHub, Docker, RESTful APIs, GraphQL, Webpack, Babel
+
+### Contributing
+
+I welcome contributions from the community! If you have suggestions, improvements, or would like to collaborate on a project, please feel free to submit a pull request or open an issue.
+
+### License
+
+This repository is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
