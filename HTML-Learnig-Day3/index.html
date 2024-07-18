@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Learning-Day3</title>
+</head>
+<body>
+    <h1>Html Tables</h1>
+    <hr />
+    <p>Table consist of three parts:
+        <ol type="1">
+            <li>thead</li>
+            <li>tbody</li>
+            <li>tfoot</li>
+        </ol>
+    </p>
+    <h2>Time-table</h2>
+    <table border="2px">
+        <caption>Time-Table for CSE</caption>
+        <thead>
+            <tr>
+                <th scope="col">Days/Class</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Python</td>
+                <td>Python</td>
+                <td>Python</td>
+                <td>Python</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>DSA</td>
+                <td>DSA</td>
+                <td>DSA</td>
+                <td>DSA</td>
+                <td>DSA</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Full-stack</td>
+                <td>Full-stack</td>
+                <td>Full-stack</td>
+                <td>Full-stack</td>
+                <td>Full-stack</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="6">Break</th>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>English</td>
+                <td>Soft-skills</td>
+                <td>Activity</td>
+                <td>English</td>
+                <td>Soft-skills</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Python</td>
+                <td rowspan="2" style="text-align: center">Maths</td>
+                <td>English</td>
+                <td>SQL</td>
+                <td>Maths</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>SQL</td>
+                <!-- <td>Maths</td> -->
+                <td>Maths</td>
+                <td>SQL</td>
+                <td>Activity</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row" colspan="6">Saturday is holiday</th>
+        </tfoot>
+    </table>
+    <hr />
+    <h1>HTML - Forms</h1>
+    <hr />
+    <h3>Email-form</h3>
+    <form action="">
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" placeholder="enter your email" required />
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" placeholder="Enter password" required />
+        <button>Submit</button>
+    </form>
+    <h3>Google Hijack</h3>
+    <form action="https://www.google.co.in/search">
+        <label for="search">Google is here</label>
+        <input type="text" name="q" id="search" placeholder="Search here">
+        <button>Search</button>
+    </form>
+    <h3>Youtube Hijack</h3>
+    <form action="https://www.youtube.com/results" method="get">
+        <label for="search">Youtube is here</label>
+        <input type="text" name="search_query" id="search" placeholder="Search here">
+        <button>Search</button>
+    </form>
+</body>
+</html>
