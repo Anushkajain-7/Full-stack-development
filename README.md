@@ -10,10 +10,10 @@ This repository documents my journey in learning and practicing full-stack devel
 
 Throughout this journey, I will be working with a range of technologies, including:
 
-* Frontend: HTML, CSS, JavaScript, React
-* Backend: Node.js, Express.js, Python (Flask), Ruby on Rails, PHP (Laravel)
-* Databases: MySQL, PostgreSQL, MongoDB, SQLite
-* Other Tools: Git & GitHub, Docker, RESTful APIs, GraphQL, Webpack, Babel
+* Frontend: HTML, CSS, JavaScript, React, Bootcamp
+* Backend: Node.js, Python (Flask), PHP (Laravel)
+* Databases: MySQL, MongoDB, SQLite
+* Other Tools: Git & GitHub
 
 ### Contributing
 
