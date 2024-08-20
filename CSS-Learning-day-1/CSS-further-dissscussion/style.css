@@ -1,0 +1,71 @@
+/* Element selector */
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: right;
+    color: palevioletred;
+    background-color: aqua;
+
+}
+
+/* id selector */
+
+#p-1{
+    font-style: italic;
+    background-color: lightcoral;
+
+}
+
+/* class selector */
+
+.p-2{
+    text-decoration: line-through;
+    background-color: lightblue;
+}
+
+/* attribute selector */
+
+a[href="https://www.google.co.in"]{
+    text-align: center;
+}
+
+input[type="text"]{
+    background-color: beige;
+    color: rgb(217, 11, 11);
+    border: 3px solid black;
+}
+
+/* Universal Selector */
+
+*{
+    font-style: italic;
+}
+
+/* PsueoSelector */
+
+#youtube:visited{
+    color: red;
+}
+
+h1:active{
+    color: darkblue;
+}
+
+input:focus{
+    background-color: lightgreen;
+}
+
+/* nth of type selector */
+
+div > p:nth-of-type(1){
+    background-color: chocolate;
+}
+
+/* next-sibling-combinator */
+
+h2 + ul{
+    border: 2px solid black;
+}
